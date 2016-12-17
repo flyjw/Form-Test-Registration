@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("beijing.jpg");
+}
+
+#content {
+    width: 710px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+/*top*/
+
+header {
+    height: 80px;
+}
+
+header img {
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.login {
+    float: right;
+    margin-right: 22px;
+    margin-top: 65px;
+}
+
+.login a {
+    float: right;
+    color: #ff0099;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 13px;
+}
+
+
+/*top*/
+
+
+/*main*/
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 1.5em;
+    color: #2e2e2f;
+    border-color: #cccccc;
+    clear: both;
+}
+
+table tr td {
+    border-color: #cccccc;
+}
+
+.title {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+table tr td {
+    padding: 3px;
+}
+
+.bg1 {
+    text-align: center;
+    background-image: url("bj1.jpg");
+    background-repeat: repeat-x;
+}
+
+.bg1 a:hover {
+    color: #ff0000;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    color: #003399;
+    font-weight: bold;
+    font-size: 13px;
+    "
+
+}
+
+p {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.blue {
+    color: #0000ff;
+}
+
+.sub {
+    width: 70px;
+    position: relative;
+    left: 50%;
+    margin-left: -35px;
+}
+
+
+/*main*/
+
+
+/*foot*/
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    height: 45px;
+}
+
+.Copyright {
+    color: #666666;
+    font-size: 12px;
+}
+
+
+/*foot*/
